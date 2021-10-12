@@ -44,4 +44,8 @@ def test_lucas_enter_zero_number():
 def test_lucas_enter_number_less_than_zeron():
     actual = test_lucas(-1)
     expected=None
-    assert actual == expected     
+    assert actual == expected   
+def test_lucas_enter_number_more_than_zero():
+    actual = test_lucas(5)
+    expected=11
+    assert actual == expected       

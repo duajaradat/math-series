@@ -20,5 +20,6 @@ def test_lucas(num):
     if num==0:
         return 2
     if num<0:
-        return None    
+        return None
+    return test_lucas(num-1)+test_lucas(num-2)         
     pass        
