@@ -28,4 +28,7 @@ def test_sum_series(num,first,second):
     if num<0:
         return None
     if num==0:
-        return first    
+        return first  
+    if num==1:
+        return second       
+    # return test_sum_series(num-1, first, second) + test_sum_series(num-2, first, second)    
