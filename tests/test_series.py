@@ -17,3 +17,8 @@ def test_fibonacci_return_LessThanZero_number():
     actual = None
     expected=None
     assert actual == expected    
+def test_fibonacci_return_7_number():
+    number=7
+    actual = 13
+    expected=13
+    assert actual == expected     
