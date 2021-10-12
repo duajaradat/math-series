@@ -55,3 +55,7 @@ def test_sum_series_enter_number_less_than_zero():
     actual = test_lucas(-9)
     expected=None
     assert actual == expected      
+def test_sum_series_enter_number_zero():
+    actual = test_sum_series(0,0,1)
+    expected=0
+    assert actual == expected      
