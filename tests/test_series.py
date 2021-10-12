@@ -22,3 +22,8 @@ def test_fibonacci_return_7_number():
     actual = 13
     expected=13
     assert actual == expected     
+def test_fibonacci_enter_number_bigger_than_1__number():
+    num=8
+    actual = test_fibonacci(num-1)+test_fibonacci(num-2)
+    expected=21
+    assert actual == expected     

@@ -8,8 +8,7 @@ def test_fibonacci(num):
         return 0
     if num<0:
         return None
-    if num==7:
-        return 13            
+    return test_fibonacci(num-1)+test_fibonacci(num-2)           
     """
     should return the nth value in the fibonacci series
     """
