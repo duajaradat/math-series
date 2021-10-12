@@ -14,6 +14,9 @@ def test_fibonacci(num):
     """
     pass
 
-def test_lucas(n):
+def test_lucas(num):
     if num==1:
         return 1
+    if num==0:
+        return 2
+    pass        

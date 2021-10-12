@@ -33,3 +33,8 @@ def test_lucas_enter_one_number():
     actual = test_lucas(1)
     expected=1
     assert actual == expected
+
+def test_lucas_enter_zero_number():
+    actual = test_lucas(0)
+    expected=2
+    assert actual == expected    
