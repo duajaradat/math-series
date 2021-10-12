@@ -1,5 +1,5 @@
 from math_series.series import test_fibonacci
-
+from math_series.series import test_lucas
 # fibonacci
 
 def test_fibonacci_return_first_number():
@@ -26,4 +26,10 @@ def test_fibonacci_enter_number_bigger_than_1__number():
     num=8
     actual = test_fibonacci(num-1)+test_fibonacci(num-2)
     expected=21
-    assert actual == expected     
+    assert actual == expected 
+
+    # lucas
+def test_lucas_enter_one_number():
+    actual = test_lucas(1)
+    expected=1
+    assert actual == expected

@@ -13,3 +13,7 @@ def test_fibonacci(num):
     should return the nth value in the fibonacci series
     """
     pass
+
+def test_lucas(n):
+    if num==1:
+        return 1
