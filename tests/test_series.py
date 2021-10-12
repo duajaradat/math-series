@@ -67,4 +67,7 @@ def test_sum_seriessecond_enter_number_2():
     actual = test_sum_series(1, 2, 1)
     expected = 1
     assert actual == expected          
-         
+def test_sum_seriessecond_enter_number_more_two():
+    actual = test_sum_series(7,2,1)
+    expected = 29
+    assert actual == expected          

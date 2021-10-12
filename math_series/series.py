@@ -22,9 +22,8 @@ def test_lucas(num):
         return None
     return test_lucas(num-1)+test_lucas(num-2)         
     pass  
-first=0
-second=1      
-def test_sum_series(num,first,second): 
+     
+def test_sum_series(num,first=0,second=1): 
     if num<0:
         return None
     if num==0:
