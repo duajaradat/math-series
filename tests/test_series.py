@@ -1,5 +1,6 @@
 from math_series.series import test_fibonacci
 from math_series.series import test_lucas
+from math_series.series import test_sum_series
 # fibonacci
 
 def test_fibonacci_return_first_number():
@@ -49,3 +50,8 @@ def test_lucas_enter_number_more_than_zero():
     actual = test_lucas(5)
     expected=11
     assert actual == expected       
+    # sum_series
+def test_sum_series_enter_number_less_than_zero():
+    actual = test_lucas(-9)
+    expected=None
+    assert actual == expected      
