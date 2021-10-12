@@ -62,8 +62,9 @@ def test_sum_series_enter_number_zero():
 def test_sum_series_enter_number_one():
     actual = test_sum_series(1,0,1)
     expected=1
-    assert actual == expected      
-# def test_sum_series_enter_numbermore_than_zero():
-#     actual = test_sum_series(7,0,1)
-#     expected=42
-#     assert actual == expected          
+    assert actual == expected
+def test_sum_seriessecond_enter_number_2():
+    actual = test_sum_series(1, 2, 1)
+    expected = 1
+    assert actual == expected          
+         
